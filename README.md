@@ -6,4 +6,4 @@ In projects branch I will upload projects I have worked on to help build experia
 Pr1. [Tip Calculator](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr1_tip_calculator.py):
 Created a tip calculator for the purpose of verifying the bill when split among a certin amount of people. 
 
-Pr2.
+Pr2.[Treasure Chest Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr2_%20treasure_game)
