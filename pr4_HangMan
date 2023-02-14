@@ -1,0 +1,26 @@
+import random
+
+wordlist = ["Empathy", "Compassion", "Courage", "Kindness", "Gratitude", "Resilience", "Patience", "Honesty", "Perseverance", "Generosity", "Diversity", "Humility", "Open-mindedness", "Creativity", "Love", "Respect", "Responsibility", "Forgiveness", "Wisdom"]
+
+pick_word = random.choice(wordlist)
+wordpick_len = len(pick_word)
+
+display = []
+for x in range(wordpick_len):
+    display.append('_')
+game_over = False
+
+while not game_over:
+    guess = input("Guess a Letter: ").lower()
+
+    for position in range(wordpick_len):
+        letter = pick_word[position].lower()
+        if letter == guess:
+            display[position] = letter
+    print(display)
+
+    if '_' not in display:
+        game_over = True
+        print('Congratulations! You won!')
+        break
+print('The word was: ' + pick_word)
