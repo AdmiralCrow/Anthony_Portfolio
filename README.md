@@ -10,4 +10,4 @@ Pr2.[Treasure Chest Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/
 
 Pr3.[PassWord Generator](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr3_PW%20Generator): Built a Password Generator.
 
-Pr4.[HangMan Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr3_PW%20Generator): Built a Password Generator.
+Pr4.[HangMan Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr4_HangMan): HangMan Game.
