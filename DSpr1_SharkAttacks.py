@@ -48,4 +48,33 @@ attacksdf = attacksdf.rename(columns={'Species ': 'Species'})
 list_species = attacksdf.Species
 list_species.dropna()
 
+# Define the CRS for the GeoDataFrame
+crs = 'epsg:4326'
+
+# Create a geometry column from the LONDEC and LATDEC columns
+geometry = [Point(xy) for xy in zip(locationdf['LONDEC'], locationdf['LATDEC'])]
+
+# Create a GeoDataFrame
+gdf = gpd.GeoDataFrame(locationdf, crs=crs, geometry=geometry)
+
+# Optional: drop the LONDEC and LATDEC columns if you don't need them
+gdf = gdf.drop(columns=['LONDEC', 'LATDEC'])
+
+# Initialize the Google Maps API client, you will need to have an active Geolocation API through GCP
+gmaps = googlemaps.Client(key='Your API Key')
+
+# Define the map center as the approximate center of Australia
+center_lat, center_lon = -25.2744, 133.7751
+
+# Create a map using the Google Maps tiles
+m = folium.Map(location=[center_lat, center_lon], zoom_start=4, tiles='https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', attr='Google')
+
+# Add markers for each data point
+for idx, row in gdf.iterrows():
+    location = (row.geometry.x, row.geometry.y)
+    address = row['geometry']
+    folium.Marker(location, tooltip=address, icon=folium.Icon(color='red')).add_to(m)
+
+# Display the map
+m
 
