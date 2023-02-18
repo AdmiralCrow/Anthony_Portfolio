@@ -78,3 +78,45 @@ for idx, row in gdf.iterrows():
 # Display the map
 m
 
+
+# Define a function to geocode a location string and return the (latitude, longitude) tuple
+def geocode_location(location):
+    print(f"Geocoding location: {location}")
+    
+    try:
+        # Use the geocoder to geocode the location
+        geocoded = gmaps.geocode(location)
+
+        # If a location was found, return its (latitude, longitude) tuple
+        if len(geocoded) > 0:
+            lat = geocoded[0]['geometry']['location']['lat']
+            lng = geocoded[0]['geometry']['location']['lng']
+            print(lat, lng)
+            return (lat, lng)
+
+    except (Timeout, ApiError):
+        # If the geocoding request timed out or encountered an API error, log an error message and return None
+        print(f"Error geocoding location: {location}")
+        return None
+
+    # If geocoding failed, log an error message and return None
+    print(f"Unable to geocode location: {location}")
+    return None
+
+# Apply the geocode_location function to the "Address" column of the DataFrame, with a delay of 1 second between requests
+attacksdf["coordinates"] = attacksdf[["Address"]].apply(lambda x: (geocode_location(", ".join(x)), time.sleep(1))[0], axis=1)
+
+
+# Extract the latitude and longitude into separate columns
+attacksdf["latitude"] = attacksdf["coordinates"].apply(lambda x: x[0] if x is not None else None)
+attacksdf["longitude"] = attacksdf["coordinates"].apply(lambda x: x[1] if x is not None else None)
+
+# Remove the "coordinates" column
+attacksdf = attacksdf.drop("coordinates", axis=1)
+
+# Print the resulting DataFrame
+print(attacksdf.head())
+print("Failed to geocode the following rows:")
+print(attacksdf[attacksdf['latitude'].isna()])
+#https://maps.googleapis.com/maps/api/geocode/json?address=Shipwreck%20s%20Beach,%20Keoneloa%20Bay,%20Kauai,%20Hawaii,%20USA&key=AIzaSyAAJOzQeBv0O77OmqJAz3sHoAL8-1pBF08
+
