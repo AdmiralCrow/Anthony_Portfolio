@@ -1,6 +1,3 @@
-# Anthony Devesa
-MS Data Science AI Focus in AI & Robotics
-
 ## Educational Projects
 - In projects branch I will upload projects I have worked on to help build experiance in python. 
 
@@ -12,9 +9,12 @@ MS Data Science AI Focus in AI & Robotics
   - Pr3.[PassWord Generator](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr3_PW%20Generator): Built a Password Generator.
 
   - Pr4.[HangMan Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr4_HangMan): HangMan Game.
+  - 
 ## Personal Projects
+- These are personal projects I use to learn tools or get a better grasp in areas I haven't mastered.
   - DSPr1.[Shark Attack](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/DSpr1_SharkAttacks.py): This is a data Analysis project in which I am creating visual aids for showing approximate hot areas around the world for shark attack, and the sharks that were involved.
     - [Shark Attack DataSet](https://www.kaggle.com/datasets/felipeesc/shark-attack-dataset) 
 
 ## Robotics Focused Projects
-  - Robotics PR1. [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
+- Research projects I am currently working on.
+  - Robotics PhD Thesis [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
