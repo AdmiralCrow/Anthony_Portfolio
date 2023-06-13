@@ -13,3 +13,5 @@ Pr3.[PassWord Generator](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/p
 Pr4.[HangMan Game](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/pr4_HangMan): HangMan Game.
 
 DSPr1.[Shark Attack](https://github.com/AdmiralCrow/Anthony_Portfolio/blob/projects/DSpr1_SharkAttacks.py): This is a data Analysis project in which I am creating visual aids for showing approximate hot areas around the world for shark attack, and the sharks that were involved.[Shark Attack DataSet](https://www.kaggle.com/datasets/felipeesc/shark-attack-dataset) 
+
+Robotics PR1. [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
