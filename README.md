@@ -17,4 +17,4 @@
 
 ## Robotics Focused Projects
 - Research projects I am currently working on.
-  - Robotics PhD Thesis [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
+  - MS Data Science - AI Capston [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
