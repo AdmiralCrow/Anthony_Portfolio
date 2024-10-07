@@ -16,5 +16,8 @@
     - [Shark Attack DataSet](https://www.kaggle.com/datasets/felipeesc/shark-attack-dataset) 
 
 ## Robotics Focused Projects
-- Research projects I am currently working on.
-  - MS Data Science - AI Capston [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
+- (COMPLETED) MS Data Science - AI Capston [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
+- PhD Computer Science (Robotics)
+      - AI-driven Heterogeneous Robot Teams for Critical Infrastructure Resilience
+
+
