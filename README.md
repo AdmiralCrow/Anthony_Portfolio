@@ -18,6 +18,6 @@
 ## Robotics Focused Projects
 - (COMPLETED) MS Data Science - AI Capston [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
 - PhD Computer Science (Robotics)
-      - AI-driven Heterogeneous Robot Teams for Critical Infrastructure Resilience
+      - [AI-driven Heterogeneous Robot Teams for Critical Infrastructure Resilience](https://github.com/AdmiralCrow/AI-driven-Heterogeneous-Robot-Teams-for-Critical-Infrastructure-Resilience/tree/main)
 
 
