@@ -18,6 +18,13 @@
 ## Robotics Focused Projects
 - (COMPLETED) MS Data Science - AI Capston [SEAQUEST](https://github.com/AdmiralCrow/SEAQUEST/blob/main/README.md)
 - PhD Computer Science (Robotics)
-      - [AI-driven Heterogeneous Robot Teams for Critical Infrastructure Resilience](https://github.com/AdmiralCrow/AI-driven-Heterogeneous-Robot-Teams-for-Critical-Infrastructure-Resilience/tree/main)
+      - (PUBLISHED)[AI-driven Heterogeneous Robot Teams for Critical Infrastructure Resilience](https://github.com/AdmiralCrow/AI-driven-Heterogeneous-Robot-Teams-for-Critical-Infrastructure-Resilience/tree/main)
 
-
+## CAD / Fusion Creations
+  - Flight Simulator Project
+    - Flight Simulator Console
+    - Flight Simulator Chair
+  - Bondtech DDX v3 Extruder side fan holder
+  - Welding Table
+  - CNC / 3D printers Cabenit
+  - 
