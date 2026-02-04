@@ -117,4 +117,4 @@ attacksdf = attacksdf.drop("coordinates", axis=1)
 print(attacksdf.head())
 print("Failed to geocode the following rows:")
 print(attacksdf[attacksdf['latitude'].isna()])
-#https://maps.googleapis.com/maps/api/geocode/json?address=Shipwreck%20s%20Beach,%20Keoneloa%20Bay,%20Kauai,%20Hawaii,%20USA&key=AIzaSyAAJOzQeBv0O77OmqJAz3sHoAL8-1pBF08
+
