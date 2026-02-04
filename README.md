@@ -25,7 +25,7 @@
     - [Flight Simulator Console](https://github.com/AdmiralCrow/CAD-Designs/blob/main/FlightSim%20Console.png)
       -[Flight Simulator Console Controls WIP](https://github.com/AdmiralCrow/CAD-Designs/blob/main/Flight%20Sim%20Controls%20WIP.png)
     - Flight Simulator Chair
-  - Bondtech DDX v3 Extruder side fan holder
+  - [Bondtech DDX v3 Extruder side fan holder](https://github.com/AdmiralCrow/CAD-Designs/blob/main/BondtechDDXv3%20Ext%20sidefan%20holder.png)
   - [Welding Table WIP](https://github.com/AdmiralCrow/CAD-Designs/blob/main/Welding%20Table%20WIP.png)
 
   - CNC / 3D printers Cabenit
