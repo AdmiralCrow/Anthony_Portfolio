@@ -23,7 +23,7 @@
 ## CAD / Fusion Creations
   - Flight Simulator Project
     - [Flight Simulator Console](https://github.com/AdmiralCrow/CAD-Designs/blob/main/FlightSim%20Console.png)
-        -[Flight Simulator Console Controls](https://github.com/AdmiralCrow/CAD-Designs/blob/main/Flight%20Sim%20Controls%20WIP.png)
+      -[Flight Simulator Console Controls](https://github.com/AdmiralCrow/CAD-Designs/blob/main/Flight%20Sim%20Controls%20WIP.png)
     - Flight Simulator Chair
   - Bondtech DDX v3 Extruder side fan holder
   - Welding Table
